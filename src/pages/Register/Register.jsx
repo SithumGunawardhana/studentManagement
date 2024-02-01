@@ -37,28 +37,21 @@ export default function Register() {
                     </Typography>
                     <Box component="form" noValidate  sx={{ mt: 3 }}>
                         <Grid container spacing={2}>
-                            <Grid item xs={12} sm={6}>
+                            <Grid item xs={12} >
                                 <TextField
-                                    autoComplete="given-name"
-                                    name="firstName"
+                                    autoComplete="name"
+                                    name="Name"
                                     required
                                     fullWidth
-                                    id="firstName"
-                                    label="First Name"
+                                    id="Name"
+                                    label="Name"
                                     autoFocus
                                 />
                             </Grid>
-                            <Grid item xs={12} sm={6}>
-                                <TextField
-                                    required
-                                    fullWidth
-                                    id="lastName"
-                                    label="Last Name"
-                                    name="lastName"
-                                    autoComplete="family-name"
-                                />
-                            </Grid>
-                            <Grid item xs={12}>
+
+
+
+                            <Grid item xs={12} >
                                 <TextField
                                     required
                                     fullWidth
@@ -82,7 +75,7 @@ export default function Register() {
                             <Grid item xs={12}>
                                 <FormControlLabel
                                     control={<Checkbox value="allowExtraEmails" color="primary" />}
-                                    label="I want to receive inspiration, marketing promotions and updates via email."
+                                    label="I agree your all term and condition"
                                 />
                             </Grid>
                         </Grid>
