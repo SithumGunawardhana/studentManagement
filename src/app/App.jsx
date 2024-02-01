@@ -5,6 +5,9 @@ import Register from "../pages/Register/Register.jsx";
 import DashBoard from "../pages/DashBoard/DashBoard.jsx"
 import GetAllStudent from "../pages/GetAllStudent/GetAllStudent.jsx";
 import ManageStudent from "../pages/ManageStudent/ManageStudent.jsx"
+import WelcomeForm from "../pages/WecomeForm/WelcomeForm.jsx";
+import MainTask from "../component/MainTask/MainTask.jsx";
+
 function App() {
 
 
@@ -14,7 +17,11 @@ function App() {
         {/*<Register/>*/}
         {/*<DashBoard/>*/}
         {/*<GetAllStudent/>*/}
-        <ManageStudent/>
+        {/*<ManageStudent/>*/}
+        {/*<WelcomeForm/>*/}
+        <MainTask/>
+
+
     </div>
   )
 }
