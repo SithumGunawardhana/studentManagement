@@ -1,13 +1,19 @@
 
 import './App.css'
+import Login from"../pages/Login/Login.jsx"
+import Register from "../pages/Register/Register.jsx";
+import DashBoard from "../pages/DashBoard/DashBoard.jsx"
+import GetAllStudent from "../pages/GetAllStudent/GetAllStudent.jsx";
 
 function App() {
 
 
   return (
     <div>
-        <h1>App</h1>
-
+        {/*<Login/>*/}
+        <Register/>
+        {/*<DashBoard/>*/}
+        {/*<GetAllStudent/>*/}
     </div>
   )
 }
